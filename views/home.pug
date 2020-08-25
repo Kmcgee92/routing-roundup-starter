@@ -1,0 +1,11 @@
+doctype
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        style
+            //- include ./app.css
+        title
+    body#targetME
+        
+        each path in Paths
+            li: a(href= path)= path
